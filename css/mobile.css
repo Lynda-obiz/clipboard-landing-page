@@ -16,6 +16,7 @@ h1{
     margin: auto;
     font-size: 2.5rem;
     width: 25rem;
+    margin-top: -2.4rem;
 }
 .top p{
     width: 35rem;
@@ -38,7 +39,10 @@ h1{
 .computer{
     margin: auto;
     max-width: 40rem;
-    width:80%;
+    width:35rem;
+}
+.computer img {
+    width:100%;
 }
 .aside{
     padding-top: 4rem;
@@ -52,6 +56,7 @@ h1{
     padding-top: 4rem;
     max-width: 40rem;
     margin: 0rem auto;
+    width:35rem;
 }
 .tablet h2 {
     margin:0rem auto;
@@ -62,7 +67,7 @@ h1{
     padding: 2rem 2rem;
 }
 .tablet img{
-    width: 90%;
+    width: 100%;
 }
 .super p{
     margin: 0rem auto;
@@ -70,27 +75,30 @@ h1{
     padding-top: 1rem ;
 }
 .icons{
-    max-width: 40rem;
+    max-width: 35rem;
     display: block;
+    gap: 0 0rem;
     padding-top: 10rem;
+    margin: 0rem auto;
 }
 .icons h4{
     padding-top: 2rem;
 }
 .icons p{
-    margin: auto;
-    width: 35rem;
+    margin: 0rem auto;
+    width: 32rem;
     padding-top: 2rem;
     padding-bottom: 4rem;
 }
 .logo{
     max-width: 40rem;
     display: block;
-    width: 50%;
+    width: 15rem;
     padding-top: 8rem;
+    margin: 0rem auto;
 }
 .logo img{
-    width: 90%;
+    width: 100%;
     padding-bottom: 3.5rem;
 }
 .download{

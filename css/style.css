@@ -93,6 +93,9 @@ p{
     display: flex;
     gap: 0 14rem;
 }
+.computer{
+    width: 70rem;
+}
 .computer img {
     width:100%;
     padding-top: 4rem;
@@ -106,6 +109,8 @@ p{
 }
 .tablet{
     text-align: center;
+    width: 70rem;
+    margin: 0rem auto;
 }
 .tablet h2 {
     padding-top: 6rem;
@@ -117,7 +122,7 @@ p{
 }
 .tablet img{
     padding-top: 6rem;
-    width: 70%;
+    width: 100%;
 }
 .icons{
     max-width: 115rem;

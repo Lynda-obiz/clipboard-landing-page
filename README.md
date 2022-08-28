@@ -22,7 +22,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ### Links
 
-- Live Site URL: ()
+- Live Site URL: (https://lynda-obiz.github.io/clipboard-landing-page/)
 
 ## My process
 

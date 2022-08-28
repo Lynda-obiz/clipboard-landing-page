@@ -1,0 +1,201 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif; 
+    line-height: 3rem;
+    overflow-x: hidden;
+}
+header{
+    background: url(../images/bg-header-desktop.png)no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 8rem;
+    grid-template-columns: 1fr;
+    place-items: center;
+    display: grid;
+    padding-bottom: 5rem;
+}
+h1{
+    text-align: center;    
+    font-size: 3.8rem;
+    color: hsl(210, 10%, 33%);
+}
+.track h2, .icons h2, .tablet h2, .text h2, .download h2{
+    font-weight: 600;
+    font-size: 3rem;
+    color: hsl(210, 10%, 33%);
+}
+h4{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 2rem;
+    }
+p{
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+.top{
+    margin: auto;
+    text-align: center;
+}
+.top p{
+    width: 65rem;
+    margin:0rem auto;
+    padding: 2rem 0; 
+}
+.btn-top{
+    padding-top: 4rem;
+    cursor: pointer;
+    place-items: center;
+    text-align: center;
+}
+.btn-top button{
+    color: #fff;
+    border: none;
+    padding: 1.5rem 3rem;
+    border-radius: 2rem;
+    margin:0 1rem ;
+    font-size: 2rem;
+}
+.btn-cyan{
+    background: hsl(171, 66%, 44%); 
+    border: none;
+}
+.btn-cyan:hover{
+    box-shadow: 0rem 0.5rem 1rem hsla(171, 66%, 44%, 0.52);
+}
+.btn-blue{
+    background: hsl(233, 100%, 69%); 
+}
+.btn-blue:hover{
+    box-shadow:0rem 0.5rem 1rem hsla(233, 100%, 69%, 0.569); 
+}
+.track {
+    margin: auto;
+    padding-top: 8rem;
+    text-align: center;
+}
+.track p{
+    margin: 0rem auto;
+    width: 69rem;
+    padding-top: 2rem;
+}
+.desktop{
+    display: flex;
+    gap: 0 14rem;
+}
+.computer img {
+    width:100%;
+    padding-top: 4rem;
+}
+.aside{
+    padding-top: 10rem;
+}
+.aside p{
+    width: 68%;
+    padding-bottom: 3rem;
+}
+.tablet{
+    text-align: center;
+}
+.tablet h2 {
+    padding-top: 6rem;
+}
+.tablet .access{
+    margin: 0rem auto;
+    width: 70rem;
+    padding-top: 2rem;
+}
+.tablet img{
+    padding-top: 6rem;
+    width: 70%;
+}
+.icons{
+    max-width: 115rem;
+    display: flex;
+    gap: 0 0.7rem;
+    margin: 0rem auto;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 6rem;
+}
+.icons p{
+    width: 40rem;
+}
+.blacklist {
+    margin-top: -1rem;
+}
+.logo{
+    margin:auto; 
+    max-width: 115rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8rem;
+    place-items: center;
+}
+.download{
+    text-align: center;
+    padding-top: 8rem;
+}
+.download p{
+    margin: 0rem auto;
+    width: 70rem;
+    padding-top: 2rem;
+}
+.btn-bottom{
+    padding: 4rem 0 8rem  0 ;
+}
+.btn-bottom button{
+    color: #fff;
+    border: none;
+    padding: 1.5rem 4rem;
+    border-radius: 2rem;
+    margin:0 1rem ;
+    cursor: pointer;
+    font-size: 2rem;
+}
+footer{
+    background: hsl(200, 14%, 88%) bottom;
+    padding: 1rem 0rem;
+}
+.footer-text{
+    max-width: 115rem;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    margin: 0rem auto;
+}
+.footer-text2  img{
+    width: 3rem;
+    height: 3rem;
+}
+.footer-text2{
+    display: flex;
+    align-items: center;
+    gap: 0rem 10rem;
+}
+span{
+    display: block;
+    padding: 1rem 0rem;
+}
+.footer-icon{
+    display: flex;
+    gap: 0 2rem;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+}
+a:hover{
+    color: hsl(171, 66%, 44%); 
+}

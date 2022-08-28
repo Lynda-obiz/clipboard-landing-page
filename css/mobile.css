@@ -1,0 +1,149 @@
+/* media querry for mobile max-width:600px */
+body{
+line-height: 3rem;
+}
+header{
+    background: url(../images/bg-header-mobile.png)no-repeat cover;
+}
+.track h2, .icons h2, .tablet h2, .text h2, .download h2, .aside h4{
+    font-size: 2rem;
+    color: hsl(210, 10%, 33%);
+}
+p{
+    font-size: 1.6rem;
+}
+h1{   
+    margin: auto;
+    font-size: 2.5rem;
+    width: 25rem;
+}
+.top p{
+    width: 35rem;
+    padding: 2rem 2rem;
+}
+.btn-top{
+    display: grid;
+    grid-gap: 3rem;
+}
+.btn-top button{
+    padding: 1.5rem 6rem;
+}
+.track p{
+    width: 35rem;
+    padding: 2rem 2rem;
+}
+.desktop{
+    display: block;
+}
+.computer{
+    margin: auto;
+    max-width: 40rem;
+    width:80%;
+}
+.aside{
+    padding-top: 4rem;
+    text-align: center;
+}
+.aside p{
+    margin: auto;
+    width: 75%;
+}
+.tablet{
+    padding-top: 4rem;
+    max-width: 40rem;
+    margin: 0rem auto;
+}
+.tablet h2 {
+    margin:0rem auto;
+    width: 25rem;
+}
+.tablet .access{
+    width: 35rem;
+    padding: 2rem 2rem;
+}
+.tablet img{
+    width: 90%;
+}
+.super p{
+    margin: 0rem auto;
+    width: 25rem;
+    padding-top: 1rem ;
+}
+.icons{
+    max-width: 40rem;
+    display: block;
+    padding-top: 10rem;
+}
+.icons h4{
+    padding-top: 2rem;
+}
+.icons p{
+    margin: auto;
+    width: 35rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.logo{
+    max-width: 40rem;
+    display: block;
+    width: 50%;
+    padding-top: 8rem;
+}
+.logo img{
+    width: 90%;
+    padding-bottom: 3.5rem;
+}
+.download{
+    margin: auto;
+    max-width: 40rem;
+}
+.download h2{
+    margin:0rem auto;
+    width: 22rem;
+}
+.download p{
+    width: 35rem;
+    padding: 2rem 2rem;
+}
+.btn-bottom{
+    padding: 4rem 0rem;
+    display: grid;
+    grid-gap: 3rem;
+    margin: auto;
+    max-width: 40rem;
+    width: 100%;
+}
+.btn-bottom button{
+    margin: auto;
+    padding: 1.5rem 3rem;
+    width: 80%;
+}
+footer{
+    width: 100%;
+}
+.footer-text{
+    max-width: 40rem;
+    width: 50%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 3rem 0rem;
+}
+.footer-text2  img{
+    width: 5rem;
+    height: 5rem;
+    align-items: center;
+}
+.footer-text2{
+    display: block;
+    align-items: center;
+}
+span{
+    padding: 0rem 0rem;
+    margin-top: 1.5rem;
+}
+.footer-icon{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    gap: 0 3rem;
+}
